@@ -1,0 +1,5 @@
+{
+  "name": "GLP-1 療程規劃助手",
+  "description": "A tool to help healthcare educators plan Mounjaro injection schedules based on available pen inventory, with the primary principle of being inventory-driven and minimizing waste.",
+  "requestFramePermissions": []
+}
