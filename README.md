@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# GLP-1 療程規劃助手
 
-# Run and deploy your AI Studio app
+協助醫療人員依現有筆數與劑量庫存，快速規劃 **猛健樂 (Mounjaro)** 與 **週纖達 (Wegovy)** 的療程安排。
 
-This contains everything you need to run your app locally.
+## 功能重點
 
-View your app in AI Studio: https://ai.studio/apps/drive/1PStEzi8O4n2FaCibaRJ6nTNyXU8i79W2
+- 支援猛健樂、週纖達雙品牌切換
+- 依現有筆數庫存產生療程建議，盡量減少浪費
+- 可設定起始劑量、最高劑量、每階段最少週數
+- 支援 microdose 與 progressive dosing 情境
+- 純前端計算，適合診間快速試算
 
-## Run Locally
+## 技術堆疊
 
-**Prerequisites:**  Node.js
+- React 19
+- TypeScript
+- Vite
 
+## 本機開發
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
+```
+
+預設會啟動本機開發伺服器，無需後端即可使用。
+
+## 注意事項
+
+- 本工具僅供專業人員計算與參考使用，不構成醫療建議
+- 實際療程仍應依藥品仿單、臨床判斷與病人個別狀況調整
+
+## 作者
+
+- @fmdrlu
